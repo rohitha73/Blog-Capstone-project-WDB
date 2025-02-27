@@ -1,6 +1,9 @@
-body{
-    background-color: blue;
+.cover-photo{
+    width: 100%;
+    height: auto;
 }
-h1{
-    color: white;
+.big-story:hover{
+    border: 5px solid #f2f700;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: all 0.1s ease-in-out;
 }
