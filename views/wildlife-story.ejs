@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife-story</title>
+</head>
+<body>
+    <%- include('partials/header.ejs') %>
+    <br>
+    <br>
+    <h2 class = 'card-title bg-1-title' >People Left Cities for Rural Zoom Towns. How Does That Impact Wildfire Risk?</h2>
+    <br>
+    <figure>
+        <img class="card-img-top bg-img" src="/imgs/wildlife/wildlife.png" alt="An image of an iPhone">
+        <figcaption style="padding-left:400px;">This post is from Cape Analytics a Priceonomics Data Studio customer.</figcaption>
+    </figure>
+    <p>As the pandemic waxes and wanes and we look back on the last 18 months, it’s clear that different types of workers experienced differential economic impacts. On one hand, there are workers who need to be in a location to do their job. Many members of the workforce, including restaurant staff, hotel employees, and those in the events industry saw their financial livelihoods devastated as the pandemic shut down parts of the economy.</p>
+    <p>On the other hand, we also saw the boom of “Zoom workers”—or knowledge workers who can conduct their work online. These workers typically work from anywhere. For these workers, the pandemic enabled them to move out of the city and work in more rural locations with natural beauty.</p>
+    <p>As such, the pandemic has given birth to a massive real estate boom in these so-called “Zoom towns” where knowledge workers relocated during the pandemic. These picturesque locations, particularly in the West, have seen a spike in real estate prices.</p>
+    <p>But there is tremendous risk associated with these growing Zoom towns in rural areas —almost all of them are in high wildfire risk areas. Living in a cabin in the woods seems idyllic until a spark of lightning ignites the forest and endangers your home.</p>
+    <p>In this analysis, we examine the wildfire risk and property values of popular Zoom towns in the Western U.S. At CAPE Analytics, we use artificial intelligence to analyze vast quantities of geospatial imagery to help insurers and other companies better understand properties and property risk. In this analysis, we look at U.S. Forest Service wildfire risk data, paired with Zillow home price estimates from the Zillow Home Value Index.</p>
+    <p>We found that the Zoom town with the highest fire risk in our sample is Mariposa, CA, a picturesque town near Yosemite, followed by Springdale, UT, and Lake Arrowhead, CA. Meanwhile, the most expensive Zoom towns in our sample were Aspen, CO, and Carmel-by-the-Sea, CA. The Zoom towns with the fastest price appreciation were Glen Ellen, CA, Truckee, CA, and Big Bear, CA, with annual price appreciation exceeding 25% in each location.</p>
+    <p>In general, our analysis finds that Zoom towns with lower home prices tend to carry higher wildfire risk. However, these same areas, which carry high fire risk, are also experiencing the highest appreciation in property values, as remote workers drive up demand. For those who deal with risk, such as the insurance industry, this can be a worrisome trend. Not only are more people moving to these higher-risk areas, but the property values (and subsequent potential losses) are growing at unprecedented rates. </p>
+    <br>
+    <br>
+    <p>Before diving into the results, let’s spend a moment on the data sources and methodology. The U.S. Forest Service provides wildfire risk assessment for much of the United States on a 0 to 5 score ranking system (0 being no risk, 5 being very high risk). We looked at the fire risk scores in cities and towns mentioned in news articles about pandemic relocation trends. This data was then paired with Zillow’s typical single-family home value estimates according to the Zillow Home Value Index (ZHVI) as of April 30th, 2021.</p>
+    <p>To start, let’s look at the list of Zoom towns we’ve assembled, ranked from the highest to lowest fire risk according to the U.S. Forest Service.</p>
+
+    <img class="card-img-top bg-img" src="/imgs/wildlife/wildlife-02.png" alt="An image of an iPhone">
+
+    <br>
+    <p>By a significant margin, Mariposa, CA, has the highest average wildfire risk at 3.8. Coming in second place is Springdale, UT, a town near Zion National Park. Lake Arrowhead, a Southern California vacation destination, and Glen Ellen, CA, a town in the middle of Sonoma wine country, round out the top four highest risk areas.</p>
+    <p>The lowest wildfire risk areas among Zoom towns in the Western United States are Butte, MT, followed by the arid locations of Palm Springs, CA, and La Quinta, CA. It should be noted that even in areas like Napa, CA, which ranks as low as 0.6 fire risk, this score is skewed by the more densely populated portions of each city. In the more rural surrounding areas of each town, the fire risk can be extremely high.</p>
+    <p>Next, we wanted to quantify the typical home price in each of these Zoom towns. The following chart ranks homes by typical value, according to Zillow, and compares those values to each town’s wildfire risk.</p>
+
+    <img class="card-img-top bg-img" src="/imgs/wildlife/wildlife-03.png" alt="An image of an iPhone">
+
+    <p>The COVID migratory pattern of people leaving cities has led to an influx of homebuyers in these higher wildfire risk areas. For people fortunate enough to be economically unscathed by the pandemic, working remotely has opened living options. As a result, many are relocating to mountain towns, wine country, or near a picturesque national park. As more demand for rural living leads to more housing and higher home value in those areas, the risk and possible total destructive value of a wildfire increases in turn. </p>
+    <p>New homeowners in these areas should be aware of this heightened risk and take mitigation measures, such as maintaining a minimum, 10-foot defensible space perimeter between the home and any vegetation. A recent Cape Analytics analysis, for example, shows that clearing vegetation from 10 feet around a home reduces the risk of damage from a wildfire by 80% or more, in very high-risk areas. </p>
+    <p>As climate change and associated wildfire risk worsen throughout the Western U.S., it’s paramount for government officials, insurance companies, and homeowners to understand the changing risk landscape and the possible negative impacts on people and property. </p>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>

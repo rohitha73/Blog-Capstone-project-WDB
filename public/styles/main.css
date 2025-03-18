@@ -1,0 +1,104 @@
+
+.cover-photo{
+    width: 100%;
+    height: auto;
+}
+
+.big-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.big-story:hover {
+    border: 5px solid #f2f700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.iphone-news:hover {
+    border: 5px solid #f2f700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-1-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 1.2em;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.iphone-img{
+    float: right;
+}
+
+.crypto-04{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.recents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    float: left;
+}
+
+.trending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    float: right;
+}
+
+.img00{
+    max-width: 50%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .recents, .trending, .bg-img, .big-story {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+
+
+
+
